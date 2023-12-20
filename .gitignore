@@ -2,7 +2,10 @@
 node_modules
 
 # BD keys info
-.env
+variables.env/
+variables.env
+.env/
+*.env
 
 # Json files
 package.json/
