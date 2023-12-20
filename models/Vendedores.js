@@ -15,16 +15,6 @@ const VendedoresSchema = mongoose.Schema({
         type: String,
         trim: true
     },
-    cedula: {
-        type: String,
-        required: true,
-        trim: true
-    },
-    telefono: {
-        type: Number,
-        required: true,
-        trim: true
-    },
     email: {
         type: String,
         required: true,
@@ -42,4 +32,4 @@ const VendedoresSchema = mongoose.Schema({
     },
 });
 
-module.exports = mongoosemodel('Vendedores', VendedoresSchema);
+module.exports = mongoose.model('Vendedor', VendedoresSchema);
