@@ -1,12 +1,9 @@
 # Dependency directories
-node_modules/
+node_modules
 
 # BD info
-variables.env/
+variables
 
 # Json files
-package.json/
-package-lock.json/
-
-#Variables de entorno
-variables.env/
+package.json
+package-lock
