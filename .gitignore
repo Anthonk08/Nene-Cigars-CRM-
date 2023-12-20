@@ -2,8 +2,8 @@
 node_modules
 
 # BD info
-variables
+variables.env/
 
 # Json files
-package.json
-package-lock
+package.json/
+package-lock.json/
