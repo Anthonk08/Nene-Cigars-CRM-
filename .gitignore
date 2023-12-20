@@ -1,8 +1,8 @@
 # Dependency directories
 node_modules
 
-# BD info
-variables.env/
+# BD keys info
+.env
 
 # Json files
 package.json/
