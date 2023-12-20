@@ -1,0 +1,25 @@
+{
+  "name": "nene-cigars-crm",
+  "version": "1.0.0",
+  "description": "Proyecto de gestor de clientes",
+  "main": "index.js",
+  "scripts": {
+    "start": "node .",
+    "dev": "nodemon ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "Nene-Cigars-CRM-"
+  },
+  "author": "Anthony Tineo Cabreja",
+  "license": "ISC",
+  "dependencies": {
+    "apollo-server": "^3.13.0",
+    "dotenv": "^16.3.1",
+    "mongoose": "^8.0.3",
+    "punycode": "^2.3.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  }
+}
