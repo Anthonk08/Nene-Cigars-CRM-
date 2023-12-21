@@ -2,9 +2,6 @@ const { gql } = require('apollo-server');
 
 // Schema
 const typeDefs = gql`
-    type Query {
-        obtenerCurso: String
-    }
 
     type Vendedor {
         id: ID
@@ -23,8 +20,22 @@ const typeDefs = gql`
         password: String!
     }
 
+    type Token {
+        token: String
+    }
+
+    input AutenticarInput {
+        email: String!
+        password: String!
+    }
+
+    type Query {
+        obtenerVendedor(token: String!): Vendedor
+    }
+
     type Mutation {
         nuevoVendedor(input: VendedorInput) : Vendedor
+        autenticarVendedor(input: AutenticarInput) : Token
     }
 `;
 
